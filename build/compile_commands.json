@@ -1,0 +1,914 @@
+[
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/g++ -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include -I/home/ian/Projects/serpinski/lib/imgui/imgui -I/home/ian/Projects/serpinski/lib/imgui/imgui/backends -g -std=gnu++11 -o CMakeFiles/serpinski_o.dir/src/game.cpp.o -c /home/ian/Projects/serpinski/src/game.cpp",
+  "file": "/home/ian/Projects/serpinski/src/game.cpp",
+  "output": "CMakeFiles/serpinski_o.dir/src/game.cpp.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/g++ -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include -I/home/ian/Projects/serpinski/lib/imgui/imgui -I/home/ian/Projects/serpinski/lib/imgui/imgui/backends -g -std=gnu++11 -o CMakeFiles/serpinski.dir/main.cpp.o -c /home/ian/Projects/serpinski/main.cpp",
+  "file": "/home/ian/Projects/serpinski/main.cpp",
+  "output": "CMakeFiles/serpinski.dir/main.cpp.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/g++ -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include -I/home/ian/Projects/serpinski/lib/imgui/imgui -I/home/ian/Projects/serpinski/lib/imgui/imgui/backends -g -std=gnu++14 -o CMakeFiles/serpinski_test.dir/tests/test.cpp.o -c /home/ian/Projects/serpinski/tests/test.cpp",
+  "file": "/home/ian/Projects/serpinski/tests/test.cpp",
+  "output": "CMakeFiles/serpinski_test.dir/tests/test.cpp.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/app.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/app.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/app.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/app.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/coredoc.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/coredoc.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/coredoc.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/coredoc.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/doc.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/doc.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/doc.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/doc.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/expr/deserialize.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/expr/deserialize.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/expr/deserialize.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/expr/deserialize.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/expr/serialize.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/expr/serialize.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/expr/serialize.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/expr/serialize.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/expr/strutil.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/expr/strutil.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/expr/strutil.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/expr/strutil.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/expr/vars.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/expr/vars.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/expr/vars.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/expr/vars.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/flecs_cpp.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/flecs_cpp.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/flecs_cpp.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/flecs_cpp.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/http.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/http.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/http.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/http.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/journal.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/journal.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/journal.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/journal.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/json/deserialize.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/json/deserialize.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/json/deserialize.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/json/deserialize.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/json/json.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/json/json.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/json/json.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/json/json.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/json/serialize.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/json/serialize.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/json/serialize.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/json/serialize.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/json/serialize_type_info.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/json/serialize_type_info.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/json/serialize_type_info.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/json/serialize_type_info.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/log.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/log.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/log.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/log.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/meta/api.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/meta/api.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/meta/api.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/meta/api.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/meta/cursor.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/meta/cursor.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/meta/cursor.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/meta/cursor.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/meta/meta.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/meta/meta.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/meta/meta.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/meta/meta.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/meta/serialized.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/meta/serialized.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/meta/serialized.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/meta/serialized.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/meta_c.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/meta_c.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/meta_c.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/meta_c.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/metrics.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/metrics.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/metrics.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/metrics.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/module.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/module.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/module.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/module.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/monitor.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/monitor.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/monitor.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/monitor.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/os_api_impl/os_api_impl.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/os_api_impl/os_api_impl.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/os_api_impl/os_api_impl.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/os_api_impl/os_api_impl.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/parser.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/parser.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/parser.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/parser.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/pipeline/pipeline.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/pipeline/pipeline.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/pipeline/pipeline.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/pipeline/pipeline.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/pipeline/worker.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/pipeline/worker.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/pipeline/worker.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/pipeline/worker.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/plecs.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/plecs.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/plecs.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/plecs.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/rest.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/rest.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/rest.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/rest.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/rules/api.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/rules/api.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/rules/api.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/rules/api.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/rules/compile.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/rules/compile.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/rules/compile.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/rules/compile.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/rules/engine.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/rules/engine.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/rules/engine.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/rules/engine.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/rules/trav_cache.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/rules/trav_cache.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/rules/trav_cache.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/rules/trav_cache.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/snapshot.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/snapshot.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/snapshot.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/snapshot.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/stats.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/stats.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/stats.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/stats.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/system/system.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/system/system.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/system/system.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/system/system.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/timer.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/timer.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/timer.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/timer.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/addons/units.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/units.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/units.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/addons/units.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/bootstrap.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/bootstrap.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/bootstrap.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/bootstrap.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/allocator.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/allocator.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/allocator.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/allocator.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/bitset.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/bitset.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/bitset.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/bitset.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/block_allocator.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/block_allocator.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/block_allocator.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/block_allocator.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/entity_index.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/entity_index.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/entity_index.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/entity_index.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/hash.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/hash.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/hash.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/hash.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/hashmap.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/hashmap.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/hashmap.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/hashmap.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/map.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/map.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/map.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/map.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/name_index.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/name_index.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/name_index.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/name_index.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/qsort.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/qsort.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/qsort.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/qsort.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/sparse.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/sparse.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/sparse.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/sparse.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/stack_allocator.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/stack_allocator.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/stack_allocator.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/stack_allocator.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/strbuf.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/strbuf.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/strbuf.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/strbuf.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/switch_list.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/switch_list.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/switch_list.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/switch_list.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/datastructures/vec.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/vec.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/vec.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/datastructures/vec.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/entity.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/entity.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/entity.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/entity.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/entity_filter.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/entity_filter.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/entity_filter.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/entity_filter.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/filter.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/filter.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/filter.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/filter.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/hierarchy.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/hierarchy.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/hierarchy.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/hierarchy.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/id_record.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/id_record.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/id_record.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/id_record.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/iter.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/iter.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/iter.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/iter.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/misc.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/misc.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/misc.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/misc.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/observable.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/observable.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/observable.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/observable.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/observer.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/observer.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/observer.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/observer.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/os_api.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/os_api.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/os_api.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/os_api.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/poly.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/poly.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/poly.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/poly.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/query.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/query.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/query.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/query.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/search.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/search.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/search.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/search.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/stage.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/stage.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/stage.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/stage.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/table.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/table.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/table.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/table.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/table_cache.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/table_cache.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/table_cache.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/table_cache.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/table_graph.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/table_graph.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/table_graph.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/table_graph.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/value.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/value.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/value.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/value.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_EXPORTS -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs.dir/src/world.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/world.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/world.c",
+  "output": "lib/flecs/CMakeFiles/flecs.dir/src/world.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/app.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/app.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/app.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/app.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/coredoc.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/coredoc.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/coredoc.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/coredoc.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/doc.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/doc.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/doc.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/doc.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/expr/deserialize.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/expr/deserialize.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/expr/deserialize.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/expr/deserialize.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/expr/serialize.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/expr/serialize.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/expr/serialize.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/expr/serialize.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/expr/strutil.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/expr/strutil.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/expr/strutil.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/expr/strutil.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/expr/vars.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/expr/vars.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/expr/vars.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/expr/vars.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/flecs_cpp.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/flecs_cpp.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/flecs_cpp.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/flecs_cpp.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/http.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/http.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/http.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/http.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/journal.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/journal.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/journal.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/journal.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/json/deserialize.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/json/deserialize.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/json/deserialize.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/json/deserialize.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/json/json.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/json/json.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/json/json.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/json/json.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/json/serialize.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/json/serialize.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/json/serialize.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/json/serialize.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/json/serialize_type_info.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/json/serialize_type_info.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/json/serialize_type_info.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/json/serialize_type_info.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/log.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/log.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/log.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/log.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/meta/api.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/meta/api.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/meta/api.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/meta/api.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/meta/cursor.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/meta/cursor.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/meta/cursor.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/meta/cursor.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/meta/meta.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/meta/meta.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/meta/meta.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/meta/meta.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/meta/serialized.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/meta/serialized.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/meta/serialized.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/meta/serialized.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/meta_c.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/meta_c.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/meta_c.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/meta_c.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/metrics.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/metrics.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/metrics.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/metrics.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/module.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/module.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/module.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/module.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/monitor.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/monitor.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/monitor.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/monitor.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/os_api_impl/os_api_impl.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/os_api_impl/os_api_impl.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/os_api_impl/os_api_impl.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/os_api_impl/os_api_impl.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/parser.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/parser.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/parser.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/parser.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/pipeline/pipeline.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/pipeline/pipeline.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/pipeline/pipeline.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/pipeline/pipeline.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/pipeline/worker.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/pipeline/worker.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/pipeline/worker.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/pipeline/worker.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/plecs.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/plecs.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/plecs.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/plecs.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/rest.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/rest.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/rest.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/rest.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/rules/api.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/rules/api.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/rules/api.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/rules/api.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/rules/compile.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/rules/compile.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/rules/compile.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/rules/compile.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/rules/engine.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/rules/engine.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/rules/engine.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/rules/engine.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/rules/trav_cache.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/rules/trav_cache.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/rules/trav_cache.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/rules/trav_cache.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/snapshot.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/snapshot.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/snapshot.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/snapshot.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/stats.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/stats.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/stats.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/stats.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/system/system.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/system/system.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/system/system.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/system/system.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/timer.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/timer.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/timer.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/timer.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/addons/units.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/addons/units.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/addons/units.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/addons/units.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/bootstrap.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/bootstrap.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/bootstrap.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/bootstrap.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/allocator.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/allocator.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/allocator.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/allocator.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/bitset.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/bitset.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/bitset.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/bitset.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/block_allocator.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/block_allocator.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/block_allocator.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/block_allocator.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/entity_index.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/entity_index.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/entity_index.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/entity_index.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/hash.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/hash.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/hash.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/hash.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/hashmap.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/hashmap.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/hashmap.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/hashmap.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/map.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/map.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/map.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/map.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/name_index.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/name_index.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/name_index.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/name_index.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/qsort.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/qsort.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/qsort.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/qsort.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/sparse.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/sparse.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/sparse.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/sparse.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/stack_allocator.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/stack_allocator.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/stack_allocator.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/stack_allocator.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/strbuf.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/strbuf.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/strbuf.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/strbuf.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/switch_list.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/switch_list.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/switch_list.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/switch_list.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/vec.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/datastructures/vec.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/datastructures/vec.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/datastructures/vec.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/entity.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/entity.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/entity.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/entity.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/entity_filter.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/entity_filter.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/entity_filter.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/entity_filter.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/filter.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/filter.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/filter.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/filter.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/hierarchy.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/hierarchy.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/hierarchy.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/hierarchy.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/id_record.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/id_record.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/id_record.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/id_record.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/iter.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/iter.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/iter.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/iter.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/misc.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/misc.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/misc.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/misc.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/observable.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/observable.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/observable.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/observable.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/observer.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/observer.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/observer.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/observer.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/os_api.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/os_api.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/os_api.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/os_api.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/poly.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/poly.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/poly.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/poly.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/query.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/query.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/query.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/query.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/search.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/search.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/search.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/search.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/stage.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/stage.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/stage.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/stage.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/table.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/table.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/table.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/table.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/table_cache.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/table_cache.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/table_cache.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/table_cache.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/table_graph.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/table_graph.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/table_graph.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/table_graph.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/value.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/value.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/value.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/value.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/gcc -Dflecs_STATIC -I/home/ian/Projects/serpinski/lib/flecs/include  -ggdb3 -pg -g -std=gnu99 -fPIC -fvisibility=hidden -Wshadow -Wunused -Wall -Wextra -Wcast-align -Wpedantic -Wconversion -Wsign-conversion -Wdouble-promotion -o lib/flecs/CMakeFiles/flecs_static.dir/src/world.c.o -c /home/ian/Projects/serpinski/lib/flecs/src/world.c",
+  "file": "/home/ian/Projects/serpinski/lib/flecs/src/world.c",
+  "output": "lib/flecs/CMakeFiles/flecs_static.dir/src/world.c.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/g++ -I/home/ian/Projects/serpinski/lib/imgui/imgui -I/home/ian/Projects/serpinski/lib/imgui/imgui/backends -g -std=gnu++11 -o lib/imgui/CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /home/ian/Projects/serpinski/lib/imgui/imgui/imgui.cpp",
+  "file": "/home/ian/Projects/serpinski/lib/imgui/imgui/imgui.cpp",
+  "output": "lib/imgui/CMakeFiles/imgui.dir/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/g++ -I/home/ian/Projects/serpinski/lib/imgui/imgui -I/home/ian/Projects/serpinski/lib/imgui/imgui/backends -g -std=gnu++11 -o lib/imgui/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /home/ian/Projects/serpinski/lib/imgui/imgui/imgui_draw.cpp",
+  "file": "/home/ian/Projects/serpinski/lib/imgui/imgui/imgui_draw.cpp",
+  "output": "lib/imgui/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/g++ -I/home/ian/Projects/serpinski/lib/imgui/imgui -I/home/ian/Projects/serpinski/lib/imgui/imgui/backends -g -std=gnu++11 -o lib/imgui/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /home/ian/Projects/serpinski/lib/imgui/imgui/imgui_widgets.cpp",
+  "file": "/home/ian/Projects/serpinski/lib/imgui/imgui/imgui_widgets.cpp",
+  "output": "lib/imgui/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/g++ -I/home/ian/Projects/serpinski/lib/imgui/imgui -I/home/ian/Projects/serpinski/lib/imgui/imgui/backends -g -std=gnu++11 -o lib/imgui/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o -c /home/ian/Projects/serpinski/lib/imgui/imgui/imgui_demo.cpp",
+  "file": "/home/ian/Projects/serpinski/lib/imgui/imgui/imgui_demo.cpp",
+  "output": "lib/imgui/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/ian/Projects/serpinski/build",
+  "command": "/sbin/g++ -I/home/ian/Projects/serpinski/lib/imgui/imgui -I/home/ian/Projects/serpinski/lib/imgui/imgui/backends -g -std=gnu++11 -o lib/imgui/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /home/ian/Projects/serpinski/lib/imgui/imgui/imgui_tables.cpp",
+  "file": "/home/ian/Projects/serpinski/lib/imgui/imgui/imgui_tables.cpp",
+  "output": "lib/imgui/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o"
+}
+]

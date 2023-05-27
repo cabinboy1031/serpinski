@@ -1,0 +1,128 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/imgui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 176,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 225,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/imgui/libimguid.a"
+			],
+			"targetId" : "imgui::@be6ff0851bf84fdbeaa9",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/imgui",
+			"paths" : 
+			[
+				"lib/imgui/imgui/imgui.h",
+				"lib/imgui/imgui/imconfig.h",
+				"lib/imgui/imgui/imgui_internal.h",
+				"lib/imgui/imgui/imstb_rectpack.h",
+				"lib/imgui/imgui/imstb_textedit.h",
+				"lib/imgui/imgui/imstb_truetype.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "misc/fonts",
+			"paths" : 
+			[
+				"lib/imgui/imgui/misc/fonts/Cousine-Regular.ttf",
+				"lib/imgui/imgui/misc/fonts/DroidSans.ttf",
+				"lib/imgui/imgui/misc/fonts/Karla-Regular.ttf",
+				"lib/imgui/imgui/misc/fonts/ProggyClean.ttf",
+				"lib/imgui/imgui/misc/fonts/ProggyTiny.ttf",
+				"lib/imgui/imgui/misc/fonts/Roboto-Medium.ttf"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/imgui",
+			"exportName" : "ImGuiTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "imgui::@be6ff0851bf84fdbeaa9",
+					"index" : 30
+				}
+			],
+			"paths" : 
+			[
+				"lib/imgui/CMakeFiles/Export/1c9f1db1a0c9398944d65050189647a4/ImGuiTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/imgui",
+			"paths" : 
+			[
+				"build/lib/imgui/generated/ImGuiConfigVersion.cmake",
+				"build/lib/imgui/generated/ImGuiConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/imgui",
+		"source" : "lib/imgui"
+	}
+}
