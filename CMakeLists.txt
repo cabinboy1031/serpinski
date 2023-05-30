@@ -1,12 +1,13 @@
 cmake_minimum_required(VERSION 3.10)
 project(serpinski)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED TRUE)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -ggdb3 -pg")
+set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -ggdb3 -pg")
 
 find_package(raylib 3.0 REQUIRED) # Requires at least version 3.0
 add_subdirectory(lib/flecs)
@@ -16,7 +17,8 @@ find_package(Catch2 3 REQUIRED)
 file(GLOB_RECURSE SOURCES src/*.cpp)
 set(HEADERS
   include/
-  lib/Unity-2.5.2/src/
+  lib/flecs/include/
+  lib/imgui/imgui/
 )
 file(GLOB_RECURSE TESTS tests/*.cpp)
 
@@ -31,7 +33,8 @@ if (APPLE)
 endif()
 
 # Without testing framework
-target_link_libraries(${PROJECT_NAME}_o raylib flecs::flecs_static ImGui::imgui)
+target_link_libraries(${PROJECT_NAME}_o PRIVATE raylib flecs::flecs ImGui::imgui)
+target_include_directories(${PROJECT_NAME}_o PUBLIC ${HEADERS})
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_o)
 

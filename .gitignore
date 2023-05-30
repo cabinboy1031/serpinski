@@ -1,2 +1,6 @@
 .vscode
 build
+compile_commands.json
+gmon.out
+.cache
+.ccls-cache
