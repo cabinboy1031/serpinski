@@ -1,42 +1,59 @@
 #include<iostream>
+#include<vector>
+
 #include<raylib.h>
 #include<raymath.h>
 #include<flecs.h>
 
 #include<engine/Renderer/Renderer2D.hpp>
+#include<Triangle.hpp>
 
-class Position2D {
-public:
-    Vector2 vec;
-};
+Vector2 center_point(Vector2 a, Vector2 b){
+    return Vector2Scale(Vector2Add(a, b), .5);
+}
 
-class Velocity2D {
-public:
-    Vector2 vec;
-};
+std::vector<Triangle2D> triangle_split(Triangle2D& t){
+    Vector2 np1 = center_point(t.p1, t.p2);
+    Vector2 np2 = center_point(t.p1, t.p3);
+    Vector2 np3 = center_point(t.p2, t.p3);
+    
+    std::vector<Triangle2D> nt = {
+        {t.p1, np1, np2},
+        {np1, t.p2, np3},
+        {np2, np3, t.p3}
+    };
+    
+    return nt;
+}
 
 int main(int argc, char *argv[]){
-    InitWindow(800, 800, "Test window");
+    int width = 800;
+    int height = 800;
+    InitWindow(width, height, "Test window");
     flecs::world world(argc,argv);
     Violet::Renderer2D renderer(world);
 
     flecs::entity e = world.entity("TestEntity");
-    e.set<Position2D>({(float)800/2, (float)800/2});
-    e.set<Velocity2D>({.01,.01});
+    e.set<Triangle2D>({
+        {(float)width/2, 100}, 
+        {(float)100,(float)height - 100}, 
+        {(float)width - 100,(float)height - 100}});
 
     std::cout << "Entity name: " << e.name() << std::endl;
   
-    flecs::system sys = world.system<Position2D, const Velocity2D>("Move")
-        .kind(flecs::OnUpdate)
-        .each([](Position2D &p, const Velocity2D &v) {
-            p.vec = Vector2Add(p.vec, v.vec);
-        });
-
-    flecs::system DrawCircle = world.system<Position2D, Velocity2D>()
-        .kind(Violet::Renderer2D::Render)
-        .each([](Position2D &p, Velocity2D &v){
-            DrawCircleV(p.vec, 50, MAROON);
-        });
+    TriangleSystemSetup(world,renderer);
+    
+    flecs::system Serpinski = world.system<Triangle2D>()
+    .interval(1)
+    .iter([](flecs::iter &it,Triangle2D *t){
+        for(auto i: it){
+            std::vector<Triangle2D> new_triangles = triangle_split(t[i]);
+            it.entity(i).destruct();
+            it.world().entity().set<Triangle2D>(new_triangles[0]);
+            it.world().entity().set<Triangle2D>(new_triangles[1]);
+            it.world().entity().set<Triangle2D>(new_triangles[2]);
+        }
+    });
     
     while(!WindowShouldClose() && world.progress()){}
 

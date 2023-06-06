@@ -1,3 +1,4 @@
+#pragma once
 #include<iostream>
 #include<raylib.h>
 #include<raymath.h>
@@ -11,8 +12,8 @@ namespace Violet {
             ~Renderer2D() = default;
 
             // Renderer Phases
-            static flecs::entity PreRender;
-            static flecs::entity Render;
-            static flecs::entity PostRender;
+            flecs::entity PreRender;
+            flecs::entity Render;
+            flecs::entity PostRender;
     };
 };
