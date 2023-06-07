@@ -1,23 +1,30 @@
-#include <engine/Renderer/Renderer2D.hpp>
-
+#include<engine/Renderer/Renderer2D.hpp>
 using namespace Violet;
 
 Renderer2D::Renderer2D(flecs::world &world){
-    this->PreRender  = world.entity().add(flecs::Phase).depends_on(flecs::OnStore);
-    this->Render     = world.entity().add(flecs::Phase).depends_on(this->PreRender);
-    this->PostRender = world.entity().add(flecs::Phase).depends_on(this->Render);
+    world.module<Renderer2D>("Renderer2D");
+
+    m_preRender = world.component<PreRender>()
+        .add(flecs::Phase)
+        .depends_on(flecs::OnStore);
+    m_Render = world.component<Render>()
+        .add(flecs::Phase)
+        .depends_on<PreRender>();
+    m_postRender = world.component<PostRender>()
+        .add(flecs::Phase)
+        .depends_on<Render>();
     
     
-    flecs::system RenderStart = world.system()
-        .kind(PreRender)
+    m_renderStart = world.system()
+        .kind<PreRender>()
         .iter([](flecs::iter &it){
             BeginDrawing();
             ClearBackground(BLACK);
         });
 
 
-    flecs::system RenderEnd = world.system()
-        .kind(PostRender)
+    m_renderEnd = world.system()
+        .kind<PostRender>()
         .iter([](flecs::iter &it){
             EndDrawing();
         });

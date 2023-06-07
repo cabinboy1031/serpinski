@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.10)
 project(serpinski)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
-set(CMAKE_C_STANDARD 17)
-set(CMAKE_C_STANDARD_REQUIRED TRUE)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -ggdb3 -pg")
@@ -20,7 +18,7 @@ set(HEADERS
 )
 file(GLOB_RECURSE TESTS tests/*.cpp)
 
-add_library(${PROJECT_NAME}_o ${SOURCES} include/raygui.h)
+add_library(${PROJECT_NAME}_o ${SOURCES})
 
 
 # Checks if OSX and links appropriate frameworks (only required on MacOS)

@@ -11,9 +11,10 @@ public:
 };
 
 
-void TriangleSystemSetup(flecs::world &world, Violet::Renderer2D &renderer){
-    flecs::system Draw = world.system<Triangle2D>()
-        .kind(renderer.Render)
+void TriangleSystemSetup(flecs::world &world){
+    world.import<Violet::Renderer2D>();
+    world.system<Triangle2D>("TriangleDrawTest")
+        .kind<Violet::Render>()
         .each([](Triangle2D &t){
             DrawTriangle(t.p1, t.p2, t.p3,MAROON);
         });

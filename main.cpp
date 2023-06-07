@@ -1,4 +1,3 @@
-#include "engine/Renderer/Interface.hpp"
 #include<iostream>
 #include<vector>
 
@@ -6,12 +5,12 @@
 #include<raymath.h>
 #include<flecs.h>
 
-#define RAYGUI_IMPLEMENTATION
-#include<raygui.h>
-
-
 #include<engine/Renderer/Renderer2D.hpp>
+#include<engine/Renderer/Interface.hpp>
 #include<Triangle.hpp>
+
+#define RAYGUI_IMPLEMENTATION
+#include <raygui.h>
 
 Vector2 center_point(Vector2 a, Vector2 b){
     return Vector2Scale(Vector2Add(a, b), .5);
@@ -36,8 +35,8 @@ int main(int argc, char *argv[]){
     int height = 800;
     InitWindow(width, height, "Test window");
     flecs::world world(argc,argv);
-    Violet::Renderer2D renderer(world);
-    Violet::Interface interface(world, renderer);
+    world.import<Violet::Renderer2D>();
+    world.import<Violet::Interface>();
 
     flecs::entity e = world.entity("TestEntity");
     e.set<Triangle2D>({
@@ -47,11 +46,11 @@ int main(int argc, char *argv[]){
 
     std::cout << "Entity name: " << e.name() << std::endl;
   
-    TriangleSystemSetup(world,renderer);
+    TriangleSystemSetup(world);
     
-    flecs::system Serpinski = world.system<Triangle2D>()
+    world.system<Triangle2D>("TriangleSplitTest")
+        .kind<Violet::Render>()
         .interval(1)
-        .kind(flecs::OnUpdate)
         .iter([](flecs::iter &it,Triangle2D *t){
             for(auto i: it){
                 std::vector<Triangle2D> new_triangles = triangle_split(t[i]);
@@ -63,10 +62,17 @@ int main(int argc, char *argv[]){
         });
     
     world.system()
-        .kind(renderer.PostRender)
-        .interval(.25)
+        .kind<Violet::PostRender>()
+        .interval(1)
         .iter([](flecs::iter &it){
             std::cout << it.world().count<Triangle2D>() << std::endl;
+        });
+    
+    
+    world.system("DrawUITest")
+        .kind<Violet::UIDraw>()
+        .iter([](flecs::iter &it){
+            GuiWindowBox({500, 400, 100,100}, "Test Box!");
         });
     
     while(!WindowShouldClose() && world.progress()){}
