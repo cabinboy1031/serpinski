@@ -12,7 +12,7 @@ Renderer2D::Renderer2D(flecs::world &world){
         .kind(PreRender)
         .iter([](flecs::iter &it){
             BeginDrawing();
-            ClearBackground(RAYWHITE);
+            ClearBackground(BLACK);
         });
 
 

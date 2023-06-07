@@ -11,18 +11,16 @@ set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -ggdb3 -pg")
 
 find_package(raylib 3.0 REQUIRED) # Requires at least version 3.0
 add_subdirectory(lib/flecs)
-add_subdirectory(lib/imgui)
 find_package(Catch2 3 REQUIRED)
 
 file(GLOB_RECURSE SOURCES src/*.cpp)
 set(HEADERS
   include/
   lib/flecs/include/
-  lib/imgui/imgui/
 )
 file(GLOB_RECURSE TESTS tests/*.cpp)
 
-add_library(${PROJECT_NAME}_o ${SOURCES})
+add_library(${PROJECT_NAME}_o ${SOURCES} include/raygui.h)
 
 
 # Checks if OSX and links appropriate frameworks (only required on MacOS)
@@ -33,7 +31,7 @@ if (APPLE)
 endif()
 
 # Without testing framework
-target_link_libraries(${PROJECT_NAME}_o PRIVATE raylib flecs::flecs ImGui::imgui)
+target_link_libraries(${PROJECT_NAME}_o PRIVATE raylib flecs::flecs)
 target_include_directories(${PROJECT_NAME}_o PUBLIC ${HEADERS})
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} ${PROJECT_NAME}_o)
